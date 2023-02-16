@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-dropdown",
+  "name": "@imadys/dropdown",
   "version": "1.0.0",
   "description": "dropdown component using tailwind styles",
   "main": "index.js",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/imadys/tailwind-dropdown/issues"
   },
-  "homepage": "https://github.com/imadys/tailwind-dropdown#readme"
+  "homepage": "https://github.com/imadys/tailwind-dropdown#readme",
+  "dependencies": {
+    "@imadys/dropdown": "^1.0.0"
+  }
 }
