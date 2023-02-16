@@ -1,15 +1,13 @@
-import {
-    defineConfig
-} from 'vitest/config'
-export default defineConfig({
-    root: 'public',
-    base: './',
-    publicDir: 'public',
-    outDir: './dist',
+import {defineConfig} from 'vitest/config'
+import path from "node:path";
 
-    test: {
-        coverage: {
-            reporter: ['text', 'html']
+export default defineConfig({
+    build: {
+        lib: {
+            entry: path.resolve(__dirname, "lib/src/index.js"),
+            name: "IMADYS",
+            formats: ["es", "umd"],
+            fileName: (format) => `imadys.${format}.js`
         }
     }
 })

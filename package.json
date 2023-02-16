@@ -1,8 +1,19 @@
 {
   "name": "@imadys/dropdown",
   "version": "0.0.7",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/imadys.umd.js",
+  "module": "./dist/imadys.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/imadys.es.js",
+      "require": "./dist/imadys.umd.js"
+    }
+  },
   "description": "dropdown component using tailwind styles",
-  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
