@@ -1,6 +1,6 @@
 {
   "name": "@imadys/dropdown",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "dropdown component using tailwind styles",
   "main": "index.js",
   "scripts": {
