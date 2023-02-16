@@ -2,6 +2,7 @@ Dropdown component
 
 - Tailwindcss is required (you can use the cdn)
 - if you are using vite you can use this example [here](https://github.com/imadys/dropdown-example "link")
+- [live preview](https://dropdown-example.vercel.app/ "@imadys/dropdown")
 
 ##### To install the package
 `npm install @imadys/dropdown`
