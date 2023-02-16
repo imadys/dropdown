@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-800">
+    <div id="app">
+      <div class="min-h-screen flex flex-col gap-10 items-center justify-center">
+        <div class="bg-white w-[1000px] h-fit flex items-center justify-center p-10">
+          <div class="flex gap-3">
+            <div class="relative">
+              <button data-dropdown-toggle="awesomeDropdown2" class="bg-blue-500 focus:ring-2 ring-offset-2 ring-blue-500 outline-none px-4 py-3 rounded-xl text-white font-bold dropdown-toggler">Awesome dropdown</button>
+              <div class="opacity-0 invisible absolute transform transition-all" id="awesomeDropdown2">
+                <ul class="overflow-hidden shadow-md w-44 m-0 border rounded-xl bg-white transition-all">
+                  <li class="hover:bg-gray-100 text-sm"><a href="#" class="block p-2 h-full w-full dropdown-link">awesome item</a></li>
+                  <li class="hover:bg-gray-100 text-sm"><a href="#" class="block p-2 h-full w-full dropdown-link">awesome item</a></li>
+                  <li class="hover:bg-gray-100 text-sm"><a href="#" class="block p-2 h-full w-full dropdown-link">awesome item</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="relative">
+              <button id="coolDropdownBtn" class="bg-blue-500 focus:ring-2 ring-offset-2 ring-blue-500 outline-none px-4 py-3 rounded-xl text-white font-bold dropdown-toggler">coolDropdown</button>
+              <div class="opacity-0 invisible absolute transform transition-all" id="coolDropdown">
+                <ul class="overflow-hidden shadow-md w-44 m-0 border rounded-xl bg-white transition-all">
+                  <li class="hover:bg-gray-100 text-sm"><a href="#" class="block p-2 h-full w-full dropdown-link">awesome item</a></li>
+                  <li class="hover:bg-gray-100 text-sm"><a href="#" class="block p-2 h-full w-full dropdown-link">awesome item</a></li>
+                  <li class="hover:bg-gray-100 text-sm"><a href="#" class="block p-2 h-full w-full dropdown-link">awesome item</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
