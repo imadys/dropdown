@@ -1,6 +1,6 @@
 
-import { initDropdowns } from './dropdown';
+import { initDropdowns } from './lib/dropdown/dropdown.js';
 
-export { default as Dropdown } from './dropdown';
+export { default as Dropdown } from './lib/dropdown/dropdown.js';
 
 initDropdowns();
