@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-dropdown",
+  "version": "1.0.0",
+  "description": "dropdown component using tailwind styles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imadys/tailwind-dropdown.git"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "imadys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imadys/tailwind-dropdown/issues"
+  },
+  "homepage": "https://github.com/imadys/tailwind-dropdown#readme"
+}
